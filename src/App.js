@@ -30,7 +30,6 @@ function Home() {
     let newProducts = [...products]
     newProducts[productIndex][paramName] = value
     setProducts(newProducts)
-
   }
 
   return (
